@@ -1,0 +1,9 @@
+git config --global user.name "ankit"
+git config --global user.email "aa931836@gmail.com"
+For initializing git staging area --> git init
+adding files or folder to staging area --> git add filename
+adding all files for current dir to staging area --> git add .
+adding all files for all the dir to staging area --> git add -A
+removing files from staging area --> git rm --cached  filelocation
+commit code to loacal git staging area --> git commit -m "meesage"
+pushing code to remote git repositories --> git push -u origin master (Note: for master/main branch)
