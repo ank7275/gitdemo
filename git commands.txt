@@ -8,3 +8,7 @@ removing files from staging area --> git rm --cached  filelocation
 for adding remote repositories to commit code --> git remote add origin git@github.com:ank7275/gitdemo.git
 commit code to loacal git staging area --> git commit -m "meesage"
 pushing code to remote git repositories --> git push -u origin master (Note: for master/main branch)
+create new branch from master/other branch --> git branch branch-name
+switching branch --> git switch branch-name
+delete branch from local --> git branch -d branch-name
+delete branch from remote --> git branch -D branch-name
